@@ -1,0 +1,146 @@
+@font-face {
+    font-family: ruimao;
+    src: url("../res/ruimao.ttf");
+}
+html{
+    min-height: 480px;
+    min-width: 930px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h6,sub,h1,h4{
+    display: inline;
+    color: #11449E;
+}
+sub{
+    vertical-align: bottom;
+}
+h4{
+    font-style: italic;
+}
+h6{
+    font-size: 1px;
+    float: right;
+}
+h2{
+    display: inline-block;
+    width: 150px;
+    margin-left: 10px;
+    background: linear-gradient(to top,#04478a,#2068b1,#1f6dbb54);
+    -webkit-transform: skew(-15deg);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+h1{
+    color: black;
+}
+.header{
+    background: url("../res/header.jpg");
+    width: 100%;
+    height: 87px;
+    margin-bottom: -67px;
+}
+.logo{
+    width: 891px;
+    height: 90px;
+    margin:22px auto 0 auto;
+    top: 0;
+}
+.logo div{
+    display: inline-block;
+}
+.logo div:last-of-type{
+    float: right;
+}
+.name{
+    line-height: 90px;
+    font-family: ruimao;
+    margin-left: 60px;
+}
+.logo div:first-of-type {
+    height: 90px;
+    background: url("../res/logo.png") no-repeat center left;
+    background-size: 50px;
+    display: inline-flex;
+    align-items: center;
+}
+.tm{
+    display: inline;
+}
+.com sub{
+    font-size: 1px;
+}
+.loginBox{
+    position: relative;
+    width: 891px;
+    height: 340px;
+    margin: 0 auto;
+    background: url("../res/bga.jpg") no-repeat 3px center;
+}
+.loginBox img{
+    margin: 26px 0 0 6px;
+}
+form{
+    background: url("../res/loginBox.jpg");
+    width: 462px;
+    height: 340px;
+    float: right;
+}
+form div:first-of-type{
+    margin-top: 120px;
+    background: url("../res/pics.gif") no-repeat left 4px;
+}
+form div:nth-of-type(2){
+    margin-top: 7px;
+    background: url("../res/pics.gif") no-repeat left -26px;
+}
+form div:nth-of-type(3){
+    margin-top: 20px;
+}
+label{
+    margin-left: 17px;
+}
+form div{
+    display: block;
+    width: 285px;
+    margin: 0 auto;
+}
+label{
+    color: #11449E;
+    font-size: 12px;
+}
+.username,.password{
+    border: solid 1px black;
+    outline: none;
+}
+.login{
+    background: url("../res/loginin.gif");
+    width: 58px;
+    height: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.rst{
+    background: url("../res/reset.gif");
+    width: 58px;
+    height: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.copyright{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #60819D;
+}
+.copyright img{
+    width: 14px;
+}
+.getUser{
+    display: none;
+}
