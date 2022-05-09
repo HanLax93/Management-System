@@ -1,2 +1,2 @@
 # Management-System
-Yes, a poor management system.
+Yeah, a poor management system(ssm).
